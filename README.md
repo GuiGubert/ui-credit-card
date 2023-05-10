@@ -2,4 +2,5 @@
 
 <p>https://ui-credit-card.vercel.app</p>
 
-![credit-card-ui](https://github.com/GuiGubert/ui-credit-card/assets/114622325/2933bb9c-de32-438b-a7b8-369337903886)
+![credit-card-ui](https://github.com/GuiGubert/ui-credit-card/assets/114622325/fbf30d63-0f1e-4105-9a02-59689f876b1c)
+
