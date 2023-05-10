@@ -88,7 +88,7 @@ cardNumber.addEventListener("keyup", (ev) => {
 
 cardName.addEventListener("keyup", (ev) => {
   if (!ev.target.value) {
-    cardNameText.innerHTML = "John Doe";
+    cardNameText.innerHTML = "João B Silva";
   } else {
     cardNameText.innerHTML = ev.target.value.toUpperCase();
   }
