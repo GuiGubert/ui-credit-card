@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>UI Credit Card</title>
+  </head>
+  <body>
+    <main class="container">
+      <section class="ui">
+        <div class="container-left">
+          <form id="credit-card">
+            <div class="number">
+              <label>Card Number</label>
+              <input
+                type="text"
+                name="card-number"
+                id="card-number"
+                maxlength="19"
+                placeholder="4321 8765 1234 4567"
+                required
+              />
+            </div>
+            <div class="name">
+              <label>Name</label>
+              <input
+                type="text"
+                name="name-text"
+                id="name-text"
+                maxlength="30"
+                placeholder="John Doe"
+                required
+              />
+            </div>
+            <div class="infos">
+              <div class="expiration">
+                <label>Valid-thru</label>
+                <input
+                  type="text"
+                  name="valid-thru"
+                  id="valid-thru"
+                  maxlength="5"
+                  placeholder="08/25"
+                  required
+                />
+              </div>
+              <div class="card-cvv">
+                <label>CVV</label>
+                <input
+                  type="text"
+                  name="card-cvv"
+                  id="card-cvv"
+                  maxlength="3"
+                  placeholder="321"
+                  required
+                />
+              </div>
+            </div>
+            <input type="submit" value="Add Card" id="add" />
+          </form>
+        </div>
+        <div class="container-right">
+          <div class="card">
+            <div class="intern">
+              <img
+                src="image/aprox.png"
+                alt="Approximation"
+                class="approximation"
+              />
+              <div class="card-number">
+                <div class="number-vl">4321 8765 1234 4567</div>
+              </div>
+              <div class="card-name">
+                <label>Name</label>
+                <div class="name-vl">John Doe</div>
+              </div>
+              <div class="card-infos">
+                <div class="exp">
+                  <label>Valid-thru</label>
+                  <div class="expiration-vl">08/25</div>
+                </div>
+                <div class="cvv">
+                  <label>CVV</label>
+                  <div class="cvv-vl">321</div>
+                </div>
+              </div>
+              <img src="image/chip.png" alt="Chip" class="chip" />
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>
