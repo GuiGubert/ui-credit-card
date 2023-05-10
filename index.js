@@ -30,7 +30,7 @@ inputCvv.addEventListener("input", function (ev) {
 const inputName = document.getElementById("name-text");
 inputName.addEventListener("input", function (ev) {
   let previousValue = this.value;
-  this.value = this.value.replace(/[^A-Za-z\ + "" .]/g, "");
+  this.value = this.value.replace(/[^A-Za-z\ + "" +  Á-Úá-ú.]/g, "");
   if (previousValue !== this.value) {
     ev.preventDefault();
   }
